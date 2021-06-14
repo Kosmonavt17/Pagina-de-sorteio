@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #011657;
+}
+
+header {
+    background-image: url(../Assets/sorteio.jpg);
+    width: 846px;
+    margin: auto;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.center {
+    text-align: center;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.form {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: auto;
+    border: solid 1px black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    width: 60%;
+    height: 217px;
+    position: relative;
+    bottom: 30px;
+    background-color: antiquewhite;
+}
+
+#subTitle {
+    position: relative;
+    bottom: 6px;
+    font-weight: 500;
+}
+
+#resultado {
+    color:rgb(250, 180, 5);
+    text-shadow: 2px 2px darkgray;
+    display: inline-block;
+    position: relative;
+    bottom: 9px;
+    padding: 5px;
+    font-size: 3.2rem;
+}
+
+#valor {
+    padding: 10px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+.add {
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: lightgray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add:hover{
+    background-color: darkgray;
+}
+
+.sort {
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: lightgray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sort:hover {
+    background-color: darkgray;
+}
+
+#preset {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#list {
+    list-style-type: none;
+}
+
+li {
+    background-color: antiquewhite;
+    border: solid black 1px;
+    position: relative;
+    bottom: 30px;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+li:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+@media screen and (max-width: 1052px) {
+    .form {
+        height: 255px;
+    }
+}
+
+@media screen and (max-width: 813px) {
+    .form {
+        height: 297px;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .form {
+        height: 338px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .form {
+        height: 377px;
+    }
+}
+
+@media screen and (max-width: 388px) {
+    .form {
+        height: 415px;
+    }
+}
