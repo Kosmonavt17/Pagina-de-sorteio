@@ -17,9 +17,11 @@
         <div class="form">
             <h1 id="subTitle">Digite valores abaixo para serem sorteados</h1>
 
-            <input type="text" id="valor" placeholder="Insira um valor..." />
-            <button class="add" onclick="addValor()">Adicionar</button>
-            <button class="sort" onclick="sortear()">Sortear</button>
+            <form onsubmit="return false;">
+                <input type="text" id="valor" placeholder="Insira um valor..." />
+                <button class="add" onclick="addValor()">Adicionar</button>
+                <button class="sort" onclick="sortear()">Sortear</button>
+            </form>
 
             <h1 id="preset">Ganhador foi...</h1>
             <h1 id="resultado"></h1>
